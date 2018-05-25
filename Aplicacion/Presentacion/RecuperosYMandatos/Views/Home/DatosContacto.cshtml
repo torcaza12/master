@@ -1,0 +1,40 @@
+﻿
+@model RecuperosYMandatos.Models.Deudor
+<div id='datosContacto'>
+    @using (Ajax.BeginForm("DeudorSave", "Deudor", new AjaxOptions { InsertionMode = InsertionMode.Replace, UpdateTargetId = "datosContacto", OnBegin = "deudor.confirmarDatosContacto('#contenedordatosContacto');" }))
+    {
+        <div class="row" >
+            <div class="col-sm-6 col-sm-offset-3 ">
+                <div class="form-top">
+                    <div class="form-top-left">
+                        <h3>Por favor, ingrese sus datos de contacto.</h3>
+                    </div>
+                    <div class="form-top-right">
+                        <i class="fa fa-lock"></i>
+                    </div>
+                </div>
+                <div class="form-bottom" id="contenedordatosContacto">
+                    <div class="form-group" align="center">
+                        <label class="sr-only" for="form-username">Apellido</label>
+                        <input type="text" name="Apellido" placeholder="Apellido" class="form-username form-control; my-el protip" id="apellido">
+                    </div>
+                    <div class="form-group" align="center">
+                        <label class="sr-only" for="form-username">Nombre</label>
+                        <input type="text" name="Nombre" placeholder="Nombre" class="form-username form-control; " id="nombre">
+                    </div>
+                    <div class="form-group" align="center">
+                        <label class="sr-only" for="form-username">Telefono celular</label>
+                        <input type="text" name="form-username" placeholder="Telefono celular..." class="form-username form-control" id="telefono_celular">
+                    </div>
+                    <div class="form-group" align="center">
+                        <label class="sr-only" for="form-username">Correo electrónico</label>
+                        <input type="text" name="form-username" placeholder="Correo electrónico..." class="form-username form-control" id="correo_electronico">
+                    </div>
+                    <div class="form-group" align="center">
+                                <button type="submit" class="btn">Contiunuar</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+    }
+    </div>
