@@ -7,7 +7,7 @@
         if (errores.length != 0) {
             var el = $('.my-el');
             el.protipShow({
-                title: '"Por favor, ingrese una identificación correcta"',
+                title: 'Por favor, ingrese una identificación correcta',
                 scheme: 'blue'
             });
         } 
@@ -33,16 +33,18 @@
      validarDatosContacto: function (model, lisErroes) {
          if (!model.Apellido)
          {
-             lisErroes.push("Por favor, ingrese su apellido.");
+             var el = $('.my-el');
+             el.protipShow({
+                 title: 'Por favor, ingrese su apellido',
+                 scheme: 'blue'
+             });
              return lisErroes;
          }
          if (!model.Nombre)
          {
-             lisErroes.push("Por favor, ingrese su nombre.");
-             var el = $('.my-el');
-             // Shows tooltip with title: "My new title"
+             var el = $('.my-el2');
              el.protipShow({
-                 title: lisErroes,
+                 title: 'Por favor, ingrese su nombre',
                  scheme: 'blue'
              });
              return lisErroes;

@@ -15,7 +15,7 @@ namespace RecuperosYMandatos.Controllers
             Deudor unDeudor = new Deudor().GetDeudorByID(ID);
             if (unDeudor == null || unDeudor.ID == 0)
             {
-                return View("~/Views/Home/SinIdentificacion.cshtml");
+                return PartialView("~/Views/Home/SinIdentificacion.cshtml");
             }
             return PartialView("~/Views/Home/DatosContacto.cshtml", unDeudor);
         }
