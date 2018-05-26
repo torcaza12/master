@@ -4,7 +4,7 @@
         var model = build.renderizarModelFrom(contenedor);
         errores = deudor.validarCampoIdentificacion(model, errores);
         custom.setearLoader();
-        if (errores.length != 0) {
+        if (errores.length !== 0) {
             var el = $('.my-el');
             el.protipShow({
                 title: 'Por favor, ingrese una identificación correcta',
@@ -17,46 +17,45 @@
         return lisErroes;
      },
      confirmarDatosContacto: function (contenedor) {
-         var errores = [];
          var model = build.renderizarModelFrom(contenedor);
-         errores = deudor.validarDatosContacto(model, errores);
-         custom.setearLoader();
-         if (errores.length != 0) {
-             //var el = $('.my-el');
-             //// Shows tooltip with title: "My new title"
-             //el.protipShow({
-             //    title: errores[0],
-             //    scheme: 'blue'
-             //});
-         }
+         deudor.validarDatosContacto(model);
+         //custom.setearLoader();
      },
-     validarDatosContacto: function (model, lisErroes) {
+     validarDatosContacto: function (model) {
+         var el;
          if (!model.Apellido)
          {
-             var el = $('.my-el');
+             el = $('.my-el');
              el.protipShow({
                  title: 'Por favor, ingrese su apellido',
                  scheme: 'blue'
              });
-             return lisErroes;
+             return;
          }
          if (!model.Nombre)
          {
-             var el = $('.my-el2');
+             el = $('.my-nombre');
              el.protipShow({
                  title: 'Por favor, ingrese su nombre',
                  scheme: 'blue'
              });
-             return lisErroes;
+             return;
          }
          if (!model.Telefono_celular) {
-             lisErroes.push("Por favor, ingrese su teléfono celular.");
-             return lisErroes;
+             el = $('.my-telefono_celular');
+             el.protipShow({
+                 title: 'Por favor, ingrese su teléfono celular',
+                 scheme: 'blue'
+             });
+             return;
          }
          if (!model.Correo_electronico) {
-             lisErroes.push("Por favor, ingrese su correo electrónico.");
-             return lisErroes;
+             el = $('.my-correo_electronico');
+             el.protipShow({
+                 title: 'Por favor, ingrese su correo electrónico',
+                 scheme: 'blue'
+             });
+             return;
          }
      }
-
 }

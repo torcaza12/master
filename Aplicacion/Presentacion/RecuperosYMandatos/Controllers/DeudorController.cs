@@ -23,7 +23,7 @@ namespace RecuperosYMandatos.Controllers
         public ActionResult SaveOrUpdate(Deudor unDeudor)
         {
             new Deudor().SaveOrUpdate(unDeudor);
-            return View("~/Views/Home/ConfirmacionValidacion.cshtml");
+            return PartialView("~/Views/Home/ConfirmacionValidacion.cshtml");
         }
     }
 }

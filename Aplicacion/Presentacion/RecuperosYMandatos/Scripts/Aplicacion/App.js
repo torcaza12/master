@@ -26,7 +26,7 @@
             zIndex: 999,
             spinner: "spinner6",
             bgColor: "#811D1D",
-            timeToHide: 1000
+            timeToHide: 2000
         });
     }
 };

@@ -240,10 +240,10 @@ C:\Desarrollos\ChefCodeNPlay\RecuperosYMandatos\Aplicacion\Presentacion\Recupero
 C:\Desarrollos\ChefCodeNPlay\RecuperosYMandatos\Aplicacion\Presentacion\RecuperosYMandatos\bin\es\System.Web.WebPages.resources.dll
 C:\Desarrollos\ChefCodeNPlay\RecuperosYMandatos\Aplicacion\Presentacion\RecuperosYMandatos\bin\es\System.Web.WebPages.Deployment.resources.dll
 C:\Desarrollos\ChefCodeNPlay\RecuperosYMandatos\Aplicacion\Presentacion\RecuperosYMandatos\bin\es\System.Web.WebPages.Razor.resources.dll
-C:\Desarrollos\ChefCodeNPlay\RecuperosYMandatos\Aplicacion\Presentacion\RecuperosYMandatos\obj\Debug\RecuperosYMandatos.csprojResolveAssemblyReference.cache
 C:\Desarrollos\ChefCodeNPlay\RecuperosYMandatos\Aplicacion\Presentacion\RecuperosYMandatos\obj\Debug\RecuperosYMandatos.Recursos.Textos.resources
 C:\Desarrollos\ChefCodeNPlay\RecuperosYMandatos\Aplicacion\Presentacion\RecuperosYMandatos\obj\Debug\RecuperosYMandatos.Recursos.Textos.en.resources
 C:\Desarrollos\ChefCodeNPlay\RecuperosYMandatos\Aplicacion\Presentacion\RecuperosYMandatos\obj\Debug\RecuperosYMandatos.csproj.GenerateResource.Cache
 C:\Desarrollos\ChefCodeNPlay\RecuperosYMandatos\Aplicacion\Presentacion\RecuperosYMandatos\obj\Debug\en\RecuperosYMandatos.resources.dll
 C:\Desarrollos\ChefCodeNPlay\RecuperosYMandatos\Aplicacion\Presentacion\RecuperosYMandatos\obj\Debug\RecuperosYMandatos.dll
 C:\Desarrollos\ChefCodeNPlay\RecuperosYMandatos\Aplicacion\Presentacion\RecuperosYMandatos\obj\Debug\RecuperosYMandatos.pdb
+C:\Desarrollos\ChefCodeNPlay\RecuperosYMandatos\Aplicacion\Presentacion\RecuperosYMandatos\obj\Debug\RecuperosYMandatos.csprojResolveAssemblyReference.cache
