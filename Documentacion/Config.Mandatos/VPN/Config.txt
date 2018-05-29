@@ -1,0 +1,5 @@
+instalar OpenVPN
+descomprimir el paquete y copiarlo en openvpn/config
+luego ejecutar como administrador "openvpn GUID"
+En el extremo inferior derecho tendrás un icono , poton de la derecha te aparecerá menú  RPP-VPN-PRINCIP-SIC-00 utiliza la opcion conect
+la contraseña es "GSYT1999"
